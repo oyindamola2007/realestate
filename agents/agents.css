@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #FAFAFA;
+    padding: 10px 50px;
+    gap: 10px;
+  
+}
+
+nav a{
+    color: black;
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 90px;
+    text-decoration: none;
+}
+
+.navlinks a{
+    text-decoration: none;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    box-shadow: 0 0 2px rgba(0,0,0, 0.1);
+    color: rgb(17, 17, 79);
+    transition: all .5s ease;
+    border: none;
+    border-radius: 20px;
+}
+
+.navlinks a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+.Navbugger{
+    display: none;
+}
+
+.navesearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    background-color: #f7f7f8ce;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px; 
+}
+
+.navesearch i{
+    color: rgb(16, 16, 104);
+    font-size: 13px;
+}
+
+.profileicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.navsignin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+
+
+
+.navlisting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.navlisting i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.navesearchs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.navsignin i{
+    color: grey;
+}
+
+.agentssectionheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.agentssection{
+    padding: 70px;
+}
+
+.agentssectionheader h3{
+    font-size: 20px;
+    color: blue;
+}
+.agentssectionheader h2{
+    font-size: 30px;
+    color: rgb(25, 25, 133);
+}
+.agentscardsection{
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 20px 30px;
+
+}
+.agentscard{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.5);
+    color: blue;
+    width: 350px;
+}
+
+.agentsimage{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.agentsimage img{
+    position: relative;
+    width: 350px;
+}
+
+.trust{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trustbutton{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trustbuttons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 35px;
+    width: 100px;
+    color: white;
+}
+
+.trusticon i{
+    font-size: 30px;
+}
+
+.iocntrust{
+    font-size: 20px;
+}
+
+.iocntrust{
+    display: flex;
+    gap: 20px;
+}
+
+.iocntrust a{
+    color: blue;
+}
+.socialpositiontop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.agenstpostion{
+    width: 350px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+}
+
+.socialicons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.iconone a{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.socialratingicon{
+    color: orange;
+    display: flex;
+    gap: 15px;
+}
+
+.social button{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.ratingtext{
+    color:white ;
+}
+
+.agentscardss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.catergoreisection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 100px ;
+   
+}
+.catergoreisection button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    transition: all .5s ease;
+   
+}
+
+.catergoreisection button:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+@media screen and  ( max-width :900px) {
+    
+    
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px 50px;
+        color: rgb(19, 19, 85);
+        position: fixed;
+        z-index: 9;
+        background-color: white;
+        /* width: 100%; */
+    }
+
+    .navlinks{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: yellow;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* width: 20%; */
+        padding: 20px;
+        transform: translateX(-300%);
+    }
+
+      .Navbugger{
+        display: block;
+    }
+
+    .seachingbarsection{
+        position: absolute;
+        top: -80px;
+        left: -1000px;
+        height: 100vh;
+    }
+
+    .sectionimage{
+        background-color: blue;
+    } 
+
+    .sectionimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navesearch{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .navesearchs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .profileicon{
+        position: absolute;
+        top: -200px;
+    }
+    .agentscard{
+        width: 320px;
+    }
+    
+    .agentsimage img{
+        width: 320px;
+    }
+    
+    .agenstpostion{
+        width: 300px;
+        gap: 20px;
+    }
+    
+}

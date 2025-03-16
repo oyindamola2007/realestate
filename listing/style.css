@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #FAFAFA;
+    padding: 10px 50px;
+    gap: 10px;
+  
+}
+
+nav a{
+    color: black;
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 90px;
+    text-decoration: none;
+}
+
+.navlinks a{
+    text-decoration: none;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    box-shadow: 0 0 2px rgba(0,0,0, 0.1);
+    color: rgb(17, 17, 79);
+    transition: all .5s ease;
+    border: none;
+    border-radius: 20px;
+}
+
+.navlinks a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+.Navbugger{
+    display: none;
+}
+
+.navesearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    background-color: #f7f7f8ce;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px; 
+}
+
+.navesearch i{
+    color: rgb(16, 16, 104);
+    font-size: 13px;
+}
+
+.profileicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.navsignin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+
+
+
+.navlisting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.navlisting i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.navesearchs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.navsignin i{
+    color: grey;
+}
+
+.propertiessection{
+    padding: 20px;
+    background-color:rgb(250, 247, 247);
+}
+
+.prpertiescardsbuttom button{
+    height: 40px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 180px;
+    border: none;
+}
+
+.browsesection{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.browsesections{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.catergoreisection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.catergoreisection button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    transition: all .5s ease;
+   
+}
+
+.catergoreisection button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.browsesections h4{
+    color:blue;
+}
+
+
+.propertiescard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 350px;
+    background-color: rgb(230, 226, 226);
+    box-shadow: 0 0 5px rgba(0,0,0, 0.5);
+}
+.propertiescards{
+   display: flex;
+   gap: 40px;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   
+}
+
+.propertiescardsicon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.propertiescicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.prpertiesimage img{
+    position: relative;
+}
+
+.socialpositiontop1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.agenstpostion1{
+    width: 350px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    position: absolute;
+  }
+.socialicons1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.iconone1{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 3px;
+  
+}
+
+.socialratingicon1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social1 button{
+    width: 90px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.ratingtext1{
+    color:white ;
+    display: flex;
+    gap: 10px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header h4{
+    background-color: blue;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.header h3{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+
+
+.pictutrepostions{
+    width: 300px;
+    position: absolute;
+    top: 1500px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    padding: 20px 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.icon i{
+    background-color: rgb(252, 72, 72);
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+}
+.icons i{
+    
+    text-align: center;
+}
+.topheader{
+   display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+
+.location i{
+    color: blue;
+}
+
+.camera i{
+    color: white;
+}
+.location{
+    display: flex;
+    justify-content: center;
+}
+
+.camera{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+.propertiesfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.prpertiestext{
+    width: 350px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:10px 20px ;
+}
+
+.propertiestarsicon{
+    color: yellow;
+}
+
+.prepertiesacrdtext h3{
+    color: blue;
+    font-size: 25px;
+}
+
+
+
+    .prpertiesimage img{
+        width: 350px;
+    }
+    
+    .propertiescard{
+        width: 350px;
+    }
+    .prpertiestext{
+        width: 350px;
+    }
+    
+    .agenstpostion1{
+        width: 350px;
+        gap: 80px;
+    }
+    
+    @media screen and  ( max-width :800px) {
+    
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px 50px;
+            color: rgb(19, 19, 85);
+            position: fixed;
+            z-index: 9;
+            background-color: white;
+            /* width: 100%; */
+        }
+    
+        .navlinks{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: yellow;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            /* width: 20%; */
+            padding: 20px;
+            transform: translateX(-300%);
+        }
+    
+          .Navbugger{
+            display: block;
+        }
+    
+        .seachingbarsection{
+            position: absolute;
+            top: -80px;
+            left: -1000px;
+            height: 100vh;
+        }
+    
+        .sectionimage{
+            background-color: blue;
+        } 
+    
+        .sectionimage{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .navesearch{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .navesearchs{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .profileicon{
+            position: absolute;
+            top: -200px;
+        }
+
+        .propertiescard{
+            width: 320px;
+        }
+
+        .prpertiesimage img{
+            width: 320px;
+        }
+
+        .agenstpostion1{
+            width: 320px;
+        }
+        
+        .prpertiestext{
+            width: 320px;
+        }
+    }
+    

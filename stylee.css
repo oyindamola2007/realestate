@@ -1,0 +1,1331 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+   
+}
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #FAFAFA;
+    padding: 10px 50px;
+    gap: 10px;
+    
+}
+
+nav a{
+    color: black;
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 90px;
+    text-decoration: none;
+}
+
+.navlinks a{
+    text-decoration: none;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    box-shadow: 0 0 2px rgba(0,0,0, 0.1);
+    color: rgb(17, 17, 79);
+    transition: all .5s ease;
+    border: none;
+    border-radius: 20px;
+}
+
+.navlinks a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+.Navbugger{
+    display: none;
+}
+
+.navesearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    background-color: #f7f7f8ce;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px; 
+}
+
+.navesearch i{
+    color: rgb(16, 16, 104);
+    font-size: 13px;
+}
+
+.profileicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.navsignin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+
+
+
+.navlisting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.navlisting i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.navesearchs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.navsignin i{
+    color: grey;
+}
+
+.sectionimage img{
+position: relative;
+width: 100%;
+height: 900px;
+}
+
+
+.sechingplatform{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.searchtext{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.seachingbarsection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 700px;
+   
+}
+
+.seachingbarsection{
+    display:flex ;
+   font-size: 20px;
+    top: 260px; 
+}
+
+.postiontag{
+   
+    position: absolute;
+    top: 250px;
+    color: white;
+    padding: 40px 60px;
+    
+}
+
+.searchingsectionheader h1{
+    font-size: 50px;
+}
+
+.selctinput{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    width: 767px;
+    height: 50px;
+    padding: 2px ;
+    padding-left: 10px;
+}
+
+.searchselcet select{
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+
+.searchselcet button{
+    width: 120px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.adnacedresearch{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.adnacedresearch button{
+    background-color: blue;
+    width: 130px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.sharesections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+}
+
+.sharebutton button{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 40px;
+    background-color: white ;
+    color:rgb(48, 48, 160) ;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+    border: none;
+}
+
+.sharesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.propertiessection{
+    padding: 20px;
+    background-color:rgb(250, 247, 247);
+}
+
+.prpertiescardsbuttom button{
+    height: 40px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 180px;
+    border: none;
+}   
+
+.prpertiescardsbuttom button a{
+    color: white;
+}
+
+.browsesection{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.browsesections{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.catergoreisection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.catergoreisection button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    transition: all .5s ease;
+   
+}
+
+.catergoreisection button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.browsesections h4{
+    color:blue;
+}
+
+
+.propertiescard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgb(230, 226, 226);
+    box-shadow: 0 0 5px rgba(0,0,0, 0.5);
+}
+.propertiescards{
+   display: flex;
+   gap: 40px;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   
+}
+
+.propertiescardsicon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.propertiescicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.prpertiesimage img{
+    position: relative;
+}
+
+
+
+.socialpositiontop1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.agenstpostion1{
+    width: 400px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    position: absolute;
+  }
+.socialicons1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.iconone1{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 3px;
+  
+}
+
+.socialratingicon1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social1 button{
+    width: 90px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.ratingtext1{
+    color:white ;
+    display: flex;
+    gap: 10px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header h4{
+    background-color: blue;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.header h3{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+
+
+.pictutrepostions{
+    width: 400px;
+    position: absolute;
+    top: 1500px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    padding: 20px 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.icon i{
+    background-color: rgb(252, 72, 72);
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+}
+.icons i{
+    
+    text-align: center;
+}
+.topheader{
+   display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+
+.location i{
+    color: blue;
+}
+
+.camera i{
+    color: white;
+}
+.location{
+    display: flex;
+    justify-content: center;
+}
+
+.camera{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+.propertiesfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.prpertiestext{
+    width: 400px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:10px 20px ;
+}
+
+.propertiestarsicon{
+    color: yellow;
+}
+
+.prepertiesacrdtext h3{
+    color: blue;
+    font-size: 25px;
+}
+
+.choosesectiontext{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.choosesections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+
+.supportsection{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: whit;
+}
+
+.suppoutsections{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.supportsectionicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    height: 70px;
+    font-size: 30px;
+}
+
+.hoursection{
+    display: flex;
+    justify-content: flex-start;
+    gap:5px;
+    flex-direction: column;
+}
+
+.choseicons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.chosesectionimage img{
+    position: relative;
+}
+.postiochosee{
+    position: absolute;
+    background-color: blue;
+    width: 300px;
+    height: 150px;
+    color: white;
+    padding: 20px 20px;
+    right: 150px;
+    top: 2500px;
+}
+
+.qote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choosesection{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    color: blue;
+   
+}
+
+.choosesecitonheader h4{
+    color: navy;
+    font-size: 24px;
+}
+
+.hoursection h4{
+    color: navy;
+    font-size: 18px;
+}
+
+.citysection{
+    display: flex;
+    justify-content: flex-start;
+    background-image: linear-gradient(  rgb(8, 8, 95) ,blue);
+    width: 1517px;
+    height: 500px;
+    gap: 20px;
+    margin: 50px;
+    margin-left: 60px;
+   
+    
+    
+} 
+.citysectiontext{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.citycard{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+
+.citycardimage{
+    position: relative;
+   
+}
+
+.citycardtext{
+    position: absolute;
+    color: white;
+    padding: 30px;
+     top: 2990px;
+}
+
+.citycards{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.citycardimage img{
+width: 370px;
+height: 500px;
+}
+
+.agentssectionheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.agentssectionheader h3{
+    font-size: 20px;
+    color: blue;
+}
+.agentssectionheader h2{
+    font-size: 30px;
+    color: rgb(25, 25, 133);
+}
+.agentscardsection{
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 20px 30px;
+
+}
+.agentscard{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.5);
+    color: blue;
+}
+
+.agentsimage{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.agentsimage img{
+    position: relative;
+}
+
+.trust{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trustbutton{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trustbuttons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 35px;
+    width: 100px;
+    color: white;
+}
+
+.trusticon i{
+    font-size: 30px;
+}
+
+.iocntrust{
+    font-size: 20px;
+}
+
+.iocntrust{
+    display: flex;
+    gap: 20px;
+}
+
+.iocntrust a{
+    color: blue;
+}
+.socialpositiontop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.agenstpostion{
+    width: 450px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    position: absolute;
+}
+
+.socialicons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.iconone a{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.socialratingicon{
+    color: orange;
+    display: flex;
+    gap: 15px;
+}
+
+.social button{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.ratingtext{
+    color:white ;
+}
+
+.agentscardss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.numbersection{
+  padding: 48px;
+}
+
+.numberone{
+    text-align: center;
+}
+
+.totalsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 160px;
+    background-color: blue;
+    color: white;
+    width: 100%;
+   margin: 60px;
+   margin-left: 10px;
+}
+
+.testimoniesheadere{
+    text-align: center;
+    padding: 20px;
+}
+
+.testomiycard{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    width: 300px;
+    background-color: blue;
+}
+
+.testiomnyomages img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+}
+
+.testiomnyomages{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.pc i{
+    color: grey;
+}
+.testinonycard{
+    background-color: white;
+    width: 300px;
+    padding: 20px 30px;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonyheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9px;
+}
+
+.testiomnyomages{
+    display: flex;
+}
+
+.antoney{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.star{
+    color: orange;
+    display: flex;
+    font-size: 13px;
+}
+
+.star1{
+    color: black;
+}
+
+.footer button{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+
+.testimonycards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.testimoniesheadere h4{
+    color: blue;
+}
+
+.testimoniesheadere h2{
+    color: rgb(9, 9, 48);
+}
+
+.newslettercontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    align-items: center;
+    color: white;
+    padding: 50px 20px;
+    gap: 50px;
+    
+}
+.newslettersection{
+    background-color: blue;
+    width: 1360px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    margin-left: 150px;
+}
+
+.iputenewslettersection{
+    width: 400px;
+    background-color: white;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inputone input{
+    color: grey;
+    height: 40px;
+    padding: 10px 20px;
+}
+
+.inputtwo input{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+}
+
+.fottercrads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px ;
+    flex-wrap: wrap;
+}
+
+.footercardbody{
+    color: black;
+}
+
+.fottertime{
+    color: rgb(15, 15, 61);
+}
+.footercard{
+    width: 350px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 20px;
+}
+
+.fottercard2{
+    display: flex;
+    flex-direction: column;
+    color: rgb(9, 9, 54);
+    gap: 15px;
+    padding-left: 20p;
+}
+
+.footerlinks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerlinks a{
+    color: rgb(5, 5, 41);
+    font-size: 17px;
+}
+
+.fottercard3{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    gap: 30px;
+    padding: 20px;
+    color: rgb(6, 6, 68);
+}
+
+
+.mailfront{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(18, 103, 156);
+    gap: 10px;
+}
+
+.contactinfo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.contactinfoas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+    
+}
+
+.contactpart{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding-left: 30px
+}
+
+.sociallogos{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+
+.sociallogos i{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.Dowloadsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+}
+
+.dowloadcontiner{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Dowloadlink{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.Dowloadlink a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+}
+
+.copyrigt{
+    display: flex;
+    justify-content: space-between;
+    padding: 20PX ;
+    background-color: rgb(240, 240, 240);
+    color: rgb(24, 24, 104);
+    margin: 5PX;
+    margin-left: 5px;
+    gap: 80px;
+}
+.footerkinks{
+    display: flex;
+    gap: 10px;
+}
+
+.footerkinks a{
+    color: blue;
+    text-decoration: none;
+}
+
+@media screen and  ( max-width :900px) {
+    
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px 50px;
+        color: rgb(19, 19, 85);
+        position: fixed;
+        z-index: 9;
+        background-color: white;
+        /* width: 100%; */
+    }
+
+    .navlinks{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: yellow;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* width: 20%; */
+        padding: 20px;
+        transform: translateX(-300%);
+    }
+
+      .Navbugger{
+        display: block;
+    }
+
+    .seachingbarsection{
+        position: absolute;
+        top: -80px;
+        left: -1000px;
+        height: 100vh;
+    }
+
+    .sectionimage{
+        background-color: blue;
+    } 
+
+    .sectionimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navesearch{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .citycards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .shosesec{
+        position: absolute;
+        left: -900px; 
+}
+
+.citysection{
+    width: 100px;
+}
+
+.profileicon{
+    position: absolute;
+    top: -200px;
+}
+
+.navesearchs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.citysection{
+    position: absolute;
+    right: 900px;
+
+}
+
+.newslettercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.iputenewslettersection{
+    width: 200px;
+}
+
+.inputtwo input{
+    width: 100px;
+}
+
+.numbersection{
+    position: absolute;
+    left: 900px;
+}
+
+.agentscard{
+    width: 320px;
+}
+
+.agentsimage img{
+    width: 320px;
+}
+
+.agenstpostion{
+    width: 300px;
+    gap: 20px;
+}
+
+.testimoniesheadere{
+    padding: 40px;
+}
+.testimonycards{
+    padding: 30px;
+}
+
+.prpertiesimage img{
+    width: 350px;
+}
+
+.propertiescard{
+    width: 350px;
+}
+
+.agenstpostion1{
+    width: 350px;
+    gap: 90px;
+}
+
+.prpertiestext{
+    width: 350px;
+}
+
+.browsesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.prpertiescardsbuttom{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+
+.searchingsectionheader h1{
+    font-size: 40px;
+}
+
+.sectionimage img{
+    height: 580px;
+    /* width: max-content; */
+}
+
+.newslettersection{
+    width: 300px;
+    margin-left: 40px;
+}
+
+.iputenewslettersection{
+    width: 250px;
+}
+
+.inputone input{
+    width: 100px;
+}
+
+.choosesection{
+    width: 350px;
+    margin-left: 10px;
+}
+
+.footer{
+margin-left: 10px;
+}
+
+
+}
