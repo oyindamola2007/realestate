@@ -8,20 +8,24 @@
 
 
 nav{
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background: #FAFAFA;
+   background-color: white;
+    z-index: 1;
     padding: 10px 50px;
     gap: 10px;
-  
+    
 }
 
 nav a{
     color: black;
 }
-.navlinks{
+
+.nav-item{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +34,7 @@ nav a{
     text-decoration: none;
 }
 
-.navlinks a{
+.nav-item a{
     text-decoration: none;
     width: 120px;
     display: flex;
@@ -43,17 +47,89 @@ nav a{
     border: none;
     border-radius: 20px;
 }
-
-.navlinks a:hover {
+.nav-item a:hover {
     background-color: blue;
     color: white;
     border-radius: 20px;
 }
-
-.Navbugger{
-    display: none;
+.nav-menu{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    gap: 150px;
+    list-style: none;
 }
 
+.nav-link{
+    transition: 0.5s ease;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+.nav-link:hover{
+    color: #f35b04;
+}
+@media(max-width:768px){
+
+    .navbar{
+        padding: 0 20px;
+        position: fixed;
+        width: 90%;
+    }
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left:100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color:white;
+        color: blue;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+
+    .headercontact{
+        position: fixed;
+        left: 100%;
+        top: 70px;
+        gap: 0;
+    }
+}
 .navesearch{
     display: flex;
     justify-content: center;
